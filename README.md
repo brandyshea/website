@@ -4,16 +4,21 @@
 
 ## Development
 
-1. Install `http-server`
+Clone this repository, then run the following:
 
-  ```bash
-  npm install -g http-server
-  ```
+```bash
+npm i
+npm start
+```
 
-2. Run Server
+A browser should open at http://localhost:8080/
 
-  ```bash
-  http-server ./
-  ```
+### Code Formatting
 
-3. Navigate in browser to localhost: http://localhost:8080/
+Run the following command to lint all of the code:
+
+```bash
+npm run lint
+```
+
+This project uses [prettier](https://www.npmjs.com/package/prettier) and [stylelint](https://www.npmjs.com/package/stylelint) to format the code.
